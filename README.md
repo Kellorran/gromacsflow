@@ -21,7 +21,7 @@ cd run_gromacs
 sudo apt-get install grace
 
 # Arquivos de Teste
-Os arquivos de teste utilizados para este programa foram disponibilizados no tutorial do GROMACS desenvolvido por Justin A. Lemkul, Ph.D., do Departamento de Bioquímica da Virginia Tech. Este tutorial cobre a simulação de lisozima e pode ser encontrado no seguinte link: Tutorial de Lisozima - GROMACS.
+Os arquivos de teste utilizados para este programa foram disponibilizados no tutorial do GROMACS desenvolvido por Justin A. Lemkul, Ph.D., do Departamento de Bioquímica da Virginia Tech. Este tutorial cobre a simulação de lisozima e pode ser encontrado no seguinte link: [Tutorial de Lisozima - GROMACS.](http://www.mdtutorials.com/gmx/lysozyme/index.html)
 
 Este conjunto de arquivos inclui todos os elementos necessários para preparar e executar simulações de dinâmica molecular de uma proteína, como arquivos .pdb e .mdp, fornecendo uma base sólida para o uso deste programa de automação.
 
