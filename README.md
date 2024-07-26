@@ -12,10 +12,10 @@ Antes de utilizar o programa, assegure-se de que:
 Para instalar e configurar o programa, siga as instruções abaixo:
 
 Clone este repositório
-git clone https://github.com/Kellorran/run_gromacs.git
+1. git clone https://github.com/Kellorran/run_gromacs.git
 
 Navegue até o diretório do projeto
-cd run_gromacs
+2. cd run_gromacs
 
 Instale o xmgrace, caso ainda não o tenha instalado
 sudo apt-get install grace
