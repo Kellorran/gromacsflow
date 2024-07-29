@@ -13,13 +13,13 @@ Este programa é uma ferramenta de automação para o GROMACS, destinada a simpl
 ### Para instalar e configurar o programa, siga as instruções abaixo:
 
 #### Clone este repositório: 
-git clone https://github.com/Kellorran/run_gromacs.git
+`git clone https://github.com/Kellorran/run_gromacs.git`
 
 #### Navegue até o diretório do projeto: 
-cd run_gromacs
+`cd run_gromacs`
 
 #### Instale o xmgrace, caso ainda não o tenha instalado
-sudo apt-get install grace
+`sudo apt-get install grace`
 
 # Arquivos de Teste
 Os arquivos de teste utilizados para este programa foram disponibilizados no tutorial do GROMACS desenvolvido por Justin A. Lemkul, Ph.D., do Departamento de Bioquímica da Virginia Tech. Este tutorial cobre a simulação de lisozima e pode ser encontrado no seguinte link: [Tutorial de Lisozima - GROMACS.](http://www.mdtutorials.com/gmx/lysozyme/index.html)
