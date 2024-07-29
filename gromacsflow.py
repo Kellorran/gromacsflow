@@ -102,7 +102,7 @@ Selecione o campo:
 """)
 	
 	# Gera a topologia
-	run_command(f"gmx pdb2gmx -f {protein_name}.pdb -o {protein_name}_processed.gro -water spce")
+	run_command(f"gmx pdb2gmx -f {protein_name}.pdb -o {protein_name}_processed.gro -water spce -ignh")
 	# Define uma caixa
 	run_command(f"gmx editconf -f {protein_name}_processed.gro -o {protein_name}_newbox.gro -c -d 1.0 -bt cubic")
 	# Adiciona solvente
