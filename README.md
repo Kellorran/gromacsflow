@@ -4,7 +4,7 @@ Este programa é uma ferramenta de automação para o GROMACS, destinada a simpl
 # Requisitos
 ### Antes de utilizar o programa, assegure-se de que:
 
-1.Ter o GROMACS instalado.
+1. O GROMACS está instalado. 
 2. O arquivo da proteína no formato .pdb foi adicionado ao diretório de trabalho.
 3. Todos os arquivos de parâmetros de simulação (.mdp) estão presentes no mesmo diretório.
 4. O software xmgrace está instalado, pois é necessário para a leitura e visualização dos gráficos gerados.
