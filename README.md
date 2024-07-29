@@ -24,7 +24,7 @@ Caso você queira visualizar os gráficos quando eles forem gerados, instale o X
 `git clone https://github.com/Kellorran/gromacsflow.git`
 
 #### Navegue até o diretório do projeto: 
-`cd run_gromacs`
+`cd gromacsflow`
 
 #### Instale o xmgrace, caso queira visualiar os gráficos:
 `sudo apt-get install grace`
