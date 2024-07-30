@@ -188,9 +188,11 @@ if __name__ == "__main__":
 	print ("""
 Para garantir a correta execução do programa, siga estas etapas:
 
-1. Verifique se o arquivo da proteína no formato .pdb foi adicionado ao diretório de trabalho.
-2. Assegure-se de que todos os arquivos de parâmetros de simulação (.mdp) estejam presentes no mesmo diretório.
-3. Certifique-se de que o software xmgrace esteja instalado, pois ele é necessário para a visualização e leitura dos gráficos gerados.
+1. Assegure-se que o GROMACS está instalado.
+2. Assegure-se que o Python está instalado.
+3. Verifique se o arquivo da proteína no formato .pdb foi adicionado ao diretório de trabalho.
+4. Assegure-se de que todos os arquivos de parâmetros de simulação (.mdp) estejam presentes no mesmo diretório.
+5. Caso você queira visualizar os gráficos quando eles forem gerados, instale o Xmgrace.
 
 """)
 	need_removal = input("Gostaria de remover os cristais de água da estrutura? (Y/n): ")
