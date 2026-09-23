@@ -116,21 +116,21 @@ Selecione o campo:
 	print ("""
 Selecione um grupo contínuo de moléculas de solvente
 
-Group 0 (System) has 33892 elements
-Group 1 (Protein) has 1960 elements
-Group 2 (Protein-H) has 1001 elements
-Group 3 (C-alpha) has 129 elements
-Group 4 (Backbone) has 387 elements
-Group 5 (MainChain) has 517 elements
-Group 6 (MainChain+Cb) has 634 elements
-Group 7 (MainChain+H) has 646 elements
-Group 8 (SideChain) has 1314 elements
-Group 9 (SideChain-H) has 484 elements
-Group 10 (Prot-Masses) has 1960 elements
-Group 11 (non-Protein) has 31932 elements
-Group 12 (Water) has 31932 elements
-Group 13 (SOL) has 31932 elements
-Group 14 (non-Water) has 1960 elements
+Group     0 (         System) has 79999 elements
+Group     1 (        Protein) has  3940 elements
+Group     2 (      Protein-H) has  1985 elements
+Group     3 (        C-alpha) has   245 elements
+Group     4 (       Backbone) has   735 elements
+Group     5 (      MainChain) has   981 elements
+Group     6 (   MainChain+Cb) has  1208 elements
+Group     7 (    MainChain+H) has  1218 elements
+Group     8 (      SideChain) has  2722 elements
+Group     9 (    SideChain-H) has  1004 elements
+Group    10 (    Prot-Masses) has  3940 elements
+Group    11 (    non-Protein) has 76059 elements
+Group    12 (          Water) has 76059 elements
+Group    13 (            SOL) has 76059 elements
+Group    14 (      non-Water) has  3940 elements
 
 Selecione um grupo:
 """)
