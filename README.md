@@ -30,7 +30,7 @@ Caso você queira visualizar os gráficos quando eles forem gerados, instale o X
 1. Navegue até o diretório do projeto: 
 `cd gromacsflow`
 
-1. Adicione o arquivo da proteína (.pd), os arquivos de parâmetros de simulação (.mdp) e o programa (gromacsflow.py) no mesmo diretório.
+1. Adicione o arquivo da proteína (.pdb), os arquivos de parâmetros de simulação (.mdp) e o programa (gromacsflow.py) no mesmo diretório.
 
 2. No terminal do Linux, execute o seguinte comando:
 `python3 gromacsflow.py`
