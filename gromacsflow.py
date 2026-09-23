@@ -146,8 +146,7 @@ Selecione um grupo:
 	print ("Rodando energia de minimização", end='', flush=True)
 	# realiza a miniminização
 	run_command(f"gmx mdrun -v -deffnm em")
-	# converte .gro em .pdb
-	run_command(f"gmx editconf -f em.gro -o em.pdb")
+
 	
 	# Gera gráfico de energia
 	run_command_input(f"gmx energy -f em.edr -o potential.xvg", input_text="10 0\n")
@@ -163,8 +162,6 @@ Selecione um grupo:
 	print ("Rodando equilibração de temperatura", end='', flush=True)
     # realiza a equilibração
 	run_command(f"gmx mdrun -deffnm nvt")
-	# converte .gro em .pdb
-	run_command(f"gmx editconf -f nvt.gro -o nvt.pdb")
     
     # Gera gráfico de temperatura
 	run_command_input(f"gmx energy -f nvt.edr -o temperature.xvg", input_text="16 0\n")
@@ -180,9 +177,7 @@ Selecione um grupo:
 	print ("Rodando equilibração de pressão", end='', flush=True)
     # realiza a equilibração
 	run_command(f"gmx mdrun -deffnm npt")
-	# converte .gro em .pdb
-	run_command(f"gmx editconf -f npt.gro -o npt.pdb")
-	
+
     # Gera gráfico de pressão
 	run_command_input(f"gmx energy -f npt.edr -o pressure.xvg", input_text="18 0\n")
 	# Roda gráfico no xmgrace
@@ -191,7 +186,12 @@ Selecione um grupo:
 	run_command_input(f"gmx energy -f npt.edr -o density.xvg", input_text="24 0\n")
 	# Roda gráfico no xmgrace
 	run_command_background(f"xmgrace density.xvg", background=True)
-    
+
+	# converte arquivos .gro em .pdb
+	run_command(f"gmx editconf -f em.gro -o em.pdb")
+	run_command(f"gmx editconf -f nvt.gro -o nvt.pdb")
+	run_command(f"gmx editconf -f npt.gro -o npt.pdb")
+	
 
 if __name__ == "__main__":
 	print ("""
